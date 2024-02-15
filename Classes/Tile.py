@@ -4,6 +4,7 @@ class Tile:
     def __init__(self, type, value):
 
         #these represent type (resource) and value (numerical value that triggers)
+        #desert will be represented by its own type, 'robber'
         self.type = type
         self.value = value
 
